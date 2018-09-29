@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config mode="client" xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="config.xsd">
+    <domain id="springboot2-cat" />
+    <servers>
+        <!-- Local mode for development -->
+        <!-- If under production environment, put actual server address as list. -->
+
+        <server ip="127.0.0.1" port="2280" http-port="8080" />
+
+        <!--
+        <server ip="192.168.1.236" port="2280" http-port="8080" />
+        <server ip="192.168.1.210" port="2280" http-port="8080" />
+        <server ip="192.168.58.128" port="2280" http-port="8080" />
+        -->
+
+    </servers>
+</config>
